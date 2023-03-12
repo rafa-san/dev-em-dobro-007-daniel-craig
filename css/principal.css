@@ -38,7 +38,7 @@ main:after {
 }
 
 .carrossel .imagem {
-  animation: mudarImagem 0.7s;
+  animation: mudarImagem 0.9s;
   display: none;
   height: 100vh;
   object-fit: cover;
@@ -113,8 +113,12 @@ main:after {
   width: 15px;
 }
 
+.botoes-carrossel .botao:hover {
+  background-color: #ff0000;
+}
+
 .botoes-carrossel .botao.selecionado {
-  background-color: red;
+  background-color: #ff0000;
 }
 
 /* CONTATO */
