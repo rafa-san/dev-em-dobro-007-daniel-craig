@@ -25,27 +25,56 @@ botoesCarrossel.forEach((botao, indice) => { // o indice foi colocado no passo 6
   botao.addEventListener('click', () => {
     
     // Passo 3: Desmarcar o botão selecionado anterior.
-    const botaoSelecionado = document.querySelector('.selecionado');
-    botaoSelecionado.classList.remove('selecionado');
+    desmarcarBotao();
 
     // Passo 4: Marcar o botão clicado como se estivesse selecionado.
-    botao.classList.add('selecionado');
+    marcarBotao(botao);
 
     // Passo 5: Esconder a imagem ativa e o texto ativo anterior.
-    const imagemAtiva = document.querySelector('.ativa');
-    imagemAtiva.classList.remove('ativa');
-
-    const tituloAtivo = document.querySelector('.ativo');
-    tituloAtivo.classList.remove('ativo');
-
-    const sinopseAtiva = document.querySelector('.sinopse-ativa');
-    sinopseAtiva.classList.remove('sinopse-ativa');
+    esconderImagem();
+    esconderTitulo();
+    esconderSinopse();
     
-
     // Passo 6: Fazer aparecer a imagem e o texto correspondente ao botão clicado.
-    imagens[indice].classList.add('ativa');
-    titulos[indice].classList.add('ativo');
-    paragrafos[indice].classList.add('sinopse-ativa')
-    
+    mostrarImagem(indice);
+    mostrarTitulo(indice);
+    mostrarParagrafo(indice);
   })
 })
+
+function mostrarParagrafo(indice) {
+  paragrafos[indice].classList.add('sinopse-ativa');
+}
+
+function mostrarTitulo(indice) {
+  titulos[indice].classList.add('ativo');
+}
+
+function mostrarImagem(indice) {
+  imagens[indice].classList.add('ativa');
+}
+
+function esconderSinopse() {
+  const sinopseAtiva = document.querySelector('.sinopse-ativa');
+  sinopseAtiva.classList.remove('sinopse-ativa');
+}
+
+function esconderTitulo() {
+  const tituloAtivo = document.querySelector('.ativo');
+  tituloAtivo.classList.remove('ativo');
+}
+
+function esconderImagem() {
+  const imagemAtiva = document.querySelector('.ativa');
+  imagemAtiva.classList.remove('ativa');
+}
+
+function marcarBotao(botao) {
+  botao.classList.add('selecionado');
+}
+
+function desmarcarBotao() {
+  const botaoSelecionado = document.querySelector('.selecionado');
+  botaoSelecionado.classList.remove('selecionado');
+}
+

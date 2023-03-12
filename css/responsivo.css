@@ -6,11 +6,17 @@
   /* CONTEÚDO */
   .informacoes .titulo-filme {
     font-size: 2.3;
-    max-width: 95%;
+    margin: auto;
+    max-width: 65%;
+    padding: 0;
+    text-align: center;
   }
 
   .informacoes .sinopse {
-    max-width: 95%;
+    margin: 32px auto;
+    max-width: 65%;
+    padding: 0;
+    text-align: center;
   }
 
   /* BOTÕES DO CARROSSEL */
@@ -22,7 +28,7 @@
   }
 
   /* CONTATO */
-  .contato {
+  /* .contato {
     margin-top: 16px;
     min-height: auto;
     position: static;
@@ -31,27 +37,31 @@
 
   .contato ul {
     flex-direction: row;
-  }
+  } */
 }
 
-@media (max-width: 425px) {
-  .carrossel .imagem {
+@media (max-width: 500px) {
+  /* .carrossel .imagem {
     height: auto;
-  }
+  } */
 
   /* CONTEÚDO */
   .informacoes .titulo-filme {
     font-size: 2.3;
-    max-width: 95%;
+    margin: auto;
+    max-width: 90%;
+    padding: 0;
   }
 
   .informacoes .sinopse {
-    max-width: 95%;
+    margin: auto;
+    max-width: 90%;
+    padding: 0;
   }
 
   /* BOTÕES DO CARROSSEL */
   .botoes-carrossel {
-    margin: 8px auto 0;
+    margin: 40px auto;
     position: static;
     transform: translate(0%, 0%);
     width: 95%;
@@ -59,7 +69,7 @@
 
   /* CONTATO */
   .contato {
-    margin-top: 8px;
+    margin-bottom: 40px;
     min-height: auto;
     position: static;
     width: 100%;
