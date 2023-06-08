@@ -1,16 +1,18 @@
-<h1>Projeto com mentoria dos irmãos Ricardo e Roberto Dias, do canal do YouTube Dev em Dobro</h1>
+<h1>Daniel Craig como <cite>007</cite></h1>
 
-<p>Nesse projeto, o objetivo original foi criar uma página web com seis fotos no formato carrossel e um texto fixo com uma breve apresentação da série da HBO, The Last of Us.</p>
+<p>Projeto com mentoria dos irmãos Ricardo e Roberto Dias, do canal do YouTube <strong>Dev em Dobro</strong>.</p>
+
+<p>O objetivo original foi criar uma página web com seis fotos numa estrutura de carrossel e um texto fixo com uma breve apresentação da série da HBO, <cite>The Last of Us</cite>.</p>
 
 <p>Nessa minha versão do projeto, as principais modificações que fiz foram as seguintes:</p>
 
 <ol>
   <li>HTML</li>
   <ul>
-    <li>Modifiquei o tema. Fiz uma página especial com os filmes do 007 interpretados pelo ator Daniel Craig.</li>
+    <li>Modifiquei o tema. Fiz uma página especial com os filmes do <cite>007</cite> interpretados pelo ator <strong>Daniel Craig</strong>.</li>
     <li>Ao invés das seis fotos do projeto original, trabalhei com cinco.</li>
     <li>Criei um texto diferente para cada uma dessas imagens.</li>
-    <li>Incluí um ícone de arma no título/logo, disponível na biblioteca do site Font Awesome.</li>
+    <li>Incluí um ícone de arma no título/logo, disponível na biblioteca do site <strong>Font Awesome</strong>.</li>
   </ul>
   <li>CSS</li>
   <ul>
