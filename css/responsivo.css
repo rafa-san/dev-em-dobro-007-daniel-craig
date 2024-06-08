@@ -1,81 +1,55 @@
-@media (max-width: 1280px) {
+@charset "utf-8";
 
-}
-
-@media (max-width: 768px) {
+@media (min-width: 870px) {
   /* CONTEÚDO */
+  .conteudo {
+    height: 100vh;
+    justify-content: space-evenly;
+  }
+
   .informacoes .titulo-filme {
-    font-size: 2.3;
-    margin: auto;
+    font-size: 3.1em;
+    margin: 0 0 32px 0;
     max-width: 65%;
-    padding: 0;
-    text-align: center;
+    min-height: unset;
+    padding: 0 0 0 32px;
+    text-align: left;
   }
 
   .informacoes .sinopse {
-    margin: 32px auto;
+    font-size: 22px;
+    line-height: 30px;
+    margin: unset;
     max-width: 65%;
-    padding: 0;
-    text-align: center;
+    min-height: unset;
+    padding: 0 0 0 32px;
+    text-align: left;
   }
+
 
   /* BOTÕES DO CARROSSEL */
   .botoes-carrossel {
-    margin: 0 auto;
-    position: static;
-    transform: translate(0%, 0%);
-    width: 95%;
+    position: fixed;
+    bottom: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
-  /* CONTATO */
-  /* .contato {
-    margin-top: 16px;
-    min-height: auto;
-    position: static;
-    width: 100%;
-  }
-
-  .contato ul {
-    flex-direction: row;
-  } */
-}
-
-@media (max-width: 500px) {
-  /* .carrossel .imagem {
-    height: auto;
-  } */
-
-  /* CONTEÚDO */
-  .informacoes .titulo-filme {
-    font-size: 2.3;
-    margin: auto;
-    max-width: 90%;
-    padding: 0;
-  }
-
-  .informacoes .sinopse {
-    margin: auto;
-    max-width: 90%;
-    padding: 0;
-  }
-
-  /* BOTÕES DO CARROSSEL */
-  .botoes-carrossel {
-    margin: 40px auto;
-    position: static;
-    transform: translate(0%, 0%);
-    width: 95%;
-  }
 
   /* CONTATO */
   .contato {
-    margin-bottom: 40px;
-    min-height: auto;
-    position: static;
-    width: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: unset;
+    bottom: unset;
+    align-items: center; /* alinhar na vertical */
+    margin: unset;
+    min-height: 100vh;
+    width: 80px;
   }
 
   .contato ul {
-    flex-direction: row;
+    flex-direction: column;
   }
 }
