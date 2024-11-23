@@ -3,14 +3,15 @@
 # Daniel Craig como *007*
 
 ## 1️⃣ Apresentação
-Este projeto foi desenvolvido com mentoria dos irmãos Ricardo e Roberto Dias, do canal **Dev em Dobro** no YouTube. A ideia original foi criar uma página web com um carrossel de imagens (seis fotos) e um texto fixo apresentando a série **The Last of Us**, da HBO.
+Este projeto foi desenvolvido com mentoria dos irmãos Ricardo e Roberto Dias, do canal **Dev em Dobro** no YouTube.
 
-As aulas, 100% gratuitas e voltadas para iniciantes na programação, permitiram não só aprender conceitos fundamentais, mas também conhecer a metodologia de ensino dos mentores.
+As aulas, 100% gratuitas e voltadas para iniciantes na programação, permitiram não só aprender conceitos fundamentais, mas também conhecer a metodologia de ensino deles.
 
-## 2️⃣ Meu Objetivo
-Meu objetivo foi manter a estrutura base criada durante as aulas, mas modificar o tema e incluir algumas funcionalidades personalizadas.
+## 2️⃣ Objetivo
+Criar uma página web com um carrossel de imagens (seis fotos) e um texto fixo apresentando a série **The Last of Us**, da HBO.
 
-As principais modificações que fiz foram as seguintes:
+## 3️⃣ Principais Modificações
+A estrutura base criada durante as aulas foi mantida. Optei somente por modificar o tema e incluir algumas funcionalidades personalizadas.
 
 **HTML**
 - Alterei o tema principal, criando uma página especial dedicada aos cinco filmes de **Daniel Craig** como *007*;
@@ -26,7 +27,7 @@ As principais modificações que fiz foram as seguintes:
 **JavaScript**
 - Adicionei a funcionalidade para trocar os títulos e as sinopses dos filmes dinamicamente conforme os botões são clicados.
 
-## 3️⃣ Tecnologias Utilizadas
+## 4️⃣ Tecnologias Utilizadas
 
 ### Linguagens
 <div style="display:flex;">
@@ -38,14 +39,14 @@ As principais modificações que fiz foram as seguintes:
   <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078D4?style=for-the-badge&logo=visual-studio-code&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/GitHub-404040?style=for-the-badge&logo=github&logoColor=white">
 </div>
 
-## 4️⃣ Créditos
+## 5️⃣ Créditos
 Meus agradecimentos aos irmãos Ricardo e Roberto Dias e à equipe do Dev em Dobro pelas aulas gratuitas e repletas de ensinamentos valiosos.
 - <a href="https://www.youtube.com/c/devemdobro" target="_blank">Dev em Dobro no YouTube 🔗</a>
 
-Para quem gostou das imagens, encontrei todas neste site aqui:
+Para quem gostou das imagens:
 - <a href="https://www.themoviedb.org/?language=pt-BR" target="_blank">The Movie Database (TMDB) 🔗</a>
 
-## 5️⃣ Licença
+## 6️⃣ Licença
 Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais informações.
 
 ---
