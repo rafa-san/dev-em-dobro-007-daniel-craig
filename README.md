@@ -2,26 +2,26 @@
 
 # Daniel Craig como *007*
 
-## 1️⃣ Apresentação
-Este projeto foi desenvolvido com mentoria dos irmãos Ricardo e Roberto Dias, do canal **Dev em Dobro** no YouTube.
+## 1️⃣ Objetivo
+Criar uma página web com um carrossel de imagens (seis fotos) e um texto fixo apresentando a série **The Last of Us**, da HBO.
+
+## 2️⃣ Descrição
+Este projeto foi desenvolvido com mentoria dos irmãos **Ricardo** e **Roberto Dias**, do canal **Dev em Dobro** no YouTube.
 
 As aulas, 100% gratuitas e voltadas para iniciantes na programação, permitiram não só aprender conceitos fundamentais, mas também conhecer a metodologia de ensino deles.
-
-## 2️⃣ Objetivo
-Criar uma página web com um carrossel de imagens (seis fotos) e um texto fixo apresentando a série **The Last of Us**, da HBO.
 
 ## 3️⃣ Principais Modificações
 A estrutura base criada durante as aulas foi mantida. Optei somente por modificar o tema e incluir algumas funcionalidades personalizadas.
 
 **HTML**
 - Alterei o tema principal, criando uma página especial dedicada aos cinco filmes de **Daniel Craig** como *007*;
-- Escrevi uma sinopse personalizada para cada imagem/filme;
+- Escrevi uma sinopse para cada imagem/filme;
 - Adicionei um ícone de arma no título/logo, utilizando a biblioteca **Font Awesome**.
 
 **CSS**
 - Reescrevi o CSS adotando o conceito de mobile first, ajustando primeiramente para telas menores e adaptando para telas maiores;
-- Modifiquei as propriedades do *background-image*, tornando as imagens mais claras em comparação ao projeto original;
-- Realizei ajustes no design do texto, modificando o *width*, *margin*, *padding* e *font-size*;
+- Modifiquei as propriedades do <code>background-image</code>, tornando as imagens mais claras em comparação ao projeto original;
+- Realizei ajustes no design do texto, modificando o <code>width</code>, <code>margin</code>, <code>padding</code> e <code>font-size</code>;
 - Reposicionei os botões: nas telas menores, eles aparecem na base da página; nas telas maiores, à direita.
 
 **JavaScript**
